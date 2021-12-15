@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+/* All Style Sheet */
 body {
-    background-color: aqua;
+    background-color: burlywood;
+}
+
+/* Print Style Sheet */
+@media print {
+    body {
+        background-color: aqua;
+    }        
+}
+
+/* Screen Style Sheet */
+@media screen {
+    body {
+        background-color: cornflowerblue;
+    }        
 }
