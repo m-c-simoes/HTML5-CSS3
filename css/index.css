@@ -2,19 +2,27 @@
 
 /* All Style Sheet */
 body {
-    background-color: burlywood;
+    background-color: rgb(135, 222, 174);
 }
 
 /* Print Style Sheet */
 @media print {
-    body {
-        background-color: aqua;
-    }        
+    body {        
+        background-color: black;
+    }     
+    
+    img {
+        display: none; /*titra imagens na impressão*/
+    }
+    
+    p{
+        color: white;
+    }   
 }
 
 /* Screen Style Sheet */
 @media screen {
-    body {
-        background-color: cornflowerblue;
-    }        
+    body {        
+        background-color: coral;
+    }     
 }
