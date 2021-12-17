@@ -5,6 +5,26 @@ body {
     background-color: rgb(135, 222, 174);
 }
 
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: black;
+}
+
+a:focus {
+    color: gold;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: teal;
+}
+
 /* Print Style Sheet */
 @media print {
     body {        
